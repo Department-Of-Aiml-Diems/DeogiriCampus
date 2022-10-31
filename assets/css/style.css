@@ -52,7 +52,7 @@ body {
   line-height: 1.5;
   color: #444;
   text-align: left;
-  background-color: #fff;
+  background-color:white;
 }
 
 [tabindex="-1"]:focus {
@@ -174,7 +174,7 @@ small, .small {
   }
 }
 
-@media (min-width:auto) {
+@media (min-width: auto) {
   .container {
       max-width: flex;
   }
@@ -837,7 +837,8 @@ select.form-control, textarea.form-control {
 }
 
 .section {
-  padding-top: 70px;
+  padding-top: 60px;
+  padding-bottom: 10px;
 }
 
 .section:nth-child(even) {
@@ -941,6 +942,7 @@ select.form-control, textarea.form-control {
   margin-top:10px;
   padding-top: 10px;
 }
+
 
 
 }
